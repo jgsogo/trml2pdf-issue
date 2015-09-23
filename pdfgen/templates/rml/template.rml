@@ -2,7 +2,7 @@
 
 {% block content %}
     <para>
-        Unicode aquí.
+        Unicode aquí
                 y aquí.
         Hello {{ user }}
     </para>
