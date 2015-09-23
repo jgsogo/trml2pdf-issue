@@ -27,8 +27,9 @@ class PDFView(View):
         context.setdefault('filename', 'report.pdf')
 
         rml = render_to_string(self.get_template_name(), context)
+        print(type(rml))
         response = HttpResponse(content_type='application/pdf')
         response['Content-Disposition'] = ('filename="report.pdf"')
-        response.write(trml2pdf.parseString(str(rml)))
+        response.write(trml2pdf.parseString(rml))
         return response
 
