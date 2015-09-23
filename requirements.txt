@@ -1,0 +1,6 @@
+Django==1.8.4
+Pillow==2.9.0
+reportlab==3.2.0
+six==1.9.0
+trml2pdf==0.3
+wheel==0.24.0
