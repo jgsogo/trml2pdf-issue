@@ -1,0 +1,9 @@
+{% extends 'rml/base.rml' %}
+
+{% block content %}
+    <para>
+        Unicode aquí.
+                y aquí.
+        Hello {{ user }}
+    </para>
+{% endblock %}
